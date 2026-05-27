@@ -1,0 +1,117 @@
+/* RESET */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f7fa;
+    color: #222;
+}
+
+/* HERO */
+.hero {
+    text-align: center;
+    background-color: #0f766e;
+    color: white;
+    padding-bottom: 30px;
+}
+
+.hero img {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+}
+
+.hero h1 {
+    margin: 15px 0 5px;
+    font-size: 42px;
+}
+
+.hero p {
+    font-size: 18px;
+}
+
+/* INTRO SECTION */
+.intro {
+    text-align: center;
+    padding: 30px 20px;
+    max-width: 800px;
+    margin: auto;
+}
+
+/* SECTION TITLE */
+.section-title {
+    text-align: center;
+    margin: 30px 0 20px;
+}
+
+/* GRID */
+.container {
+    padding: 20px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+}
+
+/* CARDS */
+.card {
+    display: block;
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    text-decoration: none;
+    color: black;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-6px);
+    background-color: #e6fffa;
+}
+
+/* PAGE (for your 4 sub pages) */
+.page-header {
+    background-color: #0f766e;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+.page-content {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+.page-content img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+/* BACK BUTTON */
+.back-btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 15px;
+    background-color: #0f766e;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.back-btn:hover {
+    background-color: #095b55;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #222;
+    color: white;
+    margin-top: 40px;
+}
